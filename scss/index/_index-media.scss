@@ -15,6 +15,12 @@
      .menu-burger {
           display: none;
      }
+     .future {
+          padding: 50px 0px 0px 0px;
+     }
+     .future-title {
+          margin: 0px 0px 30px 0px;
+     }
 }
 //
 //
@@ -136,6 +142,23 @@
           &__active &__overlay {
                display: block;
                background-color: rgba(0, 0, 0, 0.7);
+          }
+     }
+     .future {
+          padding: 50px 0px 0px 0px;
+     }
+     .future-title {
+          margin: 0px 0px 30px 0px;
+     }
+     .future-wrapper {
+          flex-direction: column;
+          align-items: center;
+          &__item-1 {
+               margin: 0px 0px 20px 0px;
+          }
+
+          &__item-2 {
+               margin: 0px 0px 0px 0px;
           }
      }
 }
@@ -284,6 +307,23 @@
      .mainbg-button {
           margin: 0 auto;
      }
+     .future {
+          padding: 50px 0px 0px 0px;
+     }
+     .future-title {
+          margin: 0px 0px 30px 0px;
+     }
+     .future-wrapper {
+          flex-direction: column;
+          align-items: center;
+          &__item-1 {
+               margin: 0px 0px 20px 0px;
+          }
+
+          &__item-2 {
+               margin: 0px 0px 0px 0px;
+          }
+     }
 }
 /*----- Стили для устройств с шириной экрана от 320px до 479.9px-----*/
 @media (min-width: 320px) and (max-width: 479.9px) {
@@ -406,7 +446,7 @@
      }
      .mainbg {
           min-height: 400px;
-          padding: 80px 0px 80px 0px;
+          padding: 50px 0px 80px 0px;
      }
      .mainbg-title {
           margin: 0px 0px 10px 0px;
@@ -429,5 +469,57 @@
      }
      .mainbg-button {
           margin: 0 auto;
+     }
+     .future {
+          padding: 35px 0px 0px 0px;
+     }
+     .future-title {
+          font-size: 28px;
+          margin: 0px 0px 20px 0px;
+     }
+     .future-wrapper {
+          flex-direction: column;
+          align-items: center;
+          &__item-1 {
+               margin: 0px 0px 20px 0px;
+               text-align: center;
+               padding: 24px 0px 15px 0px;
+               max-width: 290px;
+               min-height: 190px;
+          }
+
+          &__item-2 {
+               margin: 0px 0px 0px 0px;
+               text-align: center;
+               padding: 24px 0px 15px 0px;
+               max-width: 290px;
+               min-height: 190px;
+          }
+          &__item-title {
+               font-size: 18px;
+          }
+          &__item-button-1 {
+               width: 210px;
+          }
+          &__item-button-2 {
+               width: 210px;
+          }
+     }
+     .button {
+          &__1 {
+               padding: 12px 27px 10px 27px;
+               width: 210px;
+               min-height: 34px;
+               border-radius: 17px;
+               font-size: 12px;
+          }
+
+          &__2 {
+               max-width: 210px;
+               min-height: 34px;
+               padding: 12px 10px 10px 10px;
+               border-radius: 17px;
+               font-size: 12px;
+          }
      }
 }
