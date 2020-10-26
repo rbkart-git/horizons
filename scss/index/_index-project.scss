@@ -1,1 +1,116 @@
 /*---------- Стили для секции project ----------*/
+
+.project {
+     max-width: 100%;
+     padding: 100px 0px 100px 0px;
+}
+.container {
+     max-width: $widthdefault;
+     margin: 0 auto;
+}
+.project-title {
+     font-family: $fontfamily;
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 48px;
+     color: $colorfontdefault;
+     text-align: center;
+     margin: 0px 0px 16px 0px;
+}
+.project-text {
+     font-family: "Lato Light";
+     font-weight: 300;
+     font-size: 18px;
+     line-height: 24px;
+     text-align: center;
+     color: $colorfontdefault;
+     margin: 0px 0px 50px 0px;
+}
+.project-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+     margin: 0px 0px 50px 0px;
+     &__item {
+          max-width: 270px / $widthdefault * 100%;
+          min-height: 400px;
+          background: #ffffff;
+          box-shadow: 0px 4px 20px rgba(66, 119, 255, 0.1);
+          border-radius: 15px;
+     }
+
+     &__item-container {
+          max-width: 100%;
+          min-height: 210px;
+          border-radius: 15px 15px 0px 0px;
+          overflow: hidden;
+     }
+
+     &__item-title {
+          font-family: $fontfamily;
+          font-size: 18px;
+          line-height: 134.77%;
+          text-transform: uppercase;
+          color: #ffffff;
+          margin: 150px 0px 5px 20px;
+     }
+
+     &__item-text {
+          font-family: $fontfamily;
+          font-size: 16px;
+          line-height: 134.77%;
+          color: #ffffff;
+          margin: 0px 87px 10px 20px;
+     }
+
+     &__item-subtext {
+          font-family: "Lato Light";
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 20px;
+          color: $colorfontdefault;
+          margin: 12px 20px 0px 20px;
+     }
+}
+.item-1 {
+     background: url("../../image/index/optimized/bg_life.webp"), url("../../image/index/bg_life-optimized.png");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: cover;
+}
+.item-2 {
+     background: url("../../image/index/optimized/bg_comedy.webp"), url("../../image/index/bg_comedy-optimized.png");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: cover;
+}
+.item-3 {
+     background: url("../../image/index/optimized/bg_combinico.webp"),
+          url("../../image/index/bg_combinico-optimized.png");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: cover;
+}
+.item-4 {
+     background: url("../../image/index/optimized/bg_shop.webp"), url("../../image/index/bg_shop-optimized.png");
+     background-repeat: no-repeat;
+     background-position: top center;
+     background-size: cover;
+}
+.project-button {
+     max-width: 264px;
+     min-height: 50px;
+     margin: 0 auto;
+     &__button {
+          max-width: 264px;
+          min-height: 50px;
+          background: #ffffff;
+          border: 1px solid #4277ff;
+          border-radius: 25px;
+          font-family: $fontfamily;
+          font-size: 16px;
+          line-height: 134.77%;
+          color: #4277ff;
+          padding: 14px 40px 14px 35px;
+     }
+}
