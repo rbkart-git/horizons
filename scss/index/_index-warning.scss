@@ -1,0 +1,26 @@
+/*---------- Стили для секции warning ----------*/
+
+.warning {
+     max-width: 100%;
+     padding: 100px 0px 0px 0px;
+}
+.container {
+     max-width: $widthdefault;
+     margin: 0 auto;
+}
+.warning-title {
+     font-family: $fontfamily;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 20px;
+     color: $colorfontdefault;
+     margin: 0px 0px 10px 0px;
+}
+.warning-text {
+     font-family: "Lato Light";
+     font-weight: 300;
+     font-size: 14px;
+     line-height: 20px;
+     color: $colorfontdefault;
+     margin: 0px 0px 10px 0px;
+}

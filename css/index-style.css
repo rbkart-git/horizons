@@ -1185,6 +1185,35 @@ h6 {
   padding: 14px 44px 14px 47px;
 }
 
+/*---------- Стили для секции warning ----------*/
+.warning {
+  max-width: 100%;
+  padding: 100px 0px 0px 0px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.warning-title {
+  font-family: "Lato Regular";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #161616;
+  margin: 0px 0px 10px 0px;
+}
+
+.warning-text {
+  font-family: "Lato Light";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #161616;
+  margin: 0px 0px 10px 0px;
+}
+
 /*----- Стили для устройств с шириной экрана более 1200px -----*/
 @media (min-width: 1200px) {
   .menu-burger {
